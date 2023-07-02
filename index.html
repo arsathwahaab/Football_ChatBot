@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body><center>
+<div class="glass">
+<h1>Premier League ChatBot here</h1>
+<div class="input">
+<input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Type your Question"/>
+</div>
+<p id="chatLog">Anything about Premier League :)</p>
+</div>
+</center>
+<center><input id="quote" type="button"  onclick="getQuote()" value="How about a football Quote to get you Inspired?"/><br><br><br><textarea id="Q" rows="2" cols="70">Click the above button..</textarea></center>
+<script src="app.js"></script>
+</body>
+</html>
